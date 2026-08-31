@@ -1013,7 +1013,7 @@
                             -->
 
                             <img
-                                src="{{ asset('images/profile.jpg') }}"
+                                src="{{ asset('images/profile.png') }}"
                                 alt="Foto Nama Kamu"
                                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
                             >
