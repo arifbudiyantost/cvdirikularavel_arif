@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>{{ $name ?? 'Nama Kamu' }} | Junior Web Developer</title>
+    <title>{{ $name ?? 'Arif Budiyanto' }} | Junior Web Developer</title>
 
     <meta
         name="description"
-        content="Portfolio {{ $name ?? 'Nama Kamu' }} - Fresh Graduate SMK Rekayasa Perangkat Lunak."
+        content="Portfolio {{ $name ?? 'Arif Budiyanto' }} - Fresh Graduate SMK Rekayasa Perangkat Lunak."
     >
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -906,7 +906,7 @@
         <div class="container nav-inner">
 
             <a href="#home" class="logo">
-                &lt;<span>dev</span>/&gt;
+                &lt;<span>Arif</span>/&gt;
             </a>
 
             <nav class="nav-links" id="navLinks">
@@ -948,7 +948,7 @@
 
                     <h1>
                         Halo, saya
-                        <span>Nama Kamu.</span>
+                        <span>Arif Budiyanto.</span>
                     </h1>
 
                     <p class="hero-description">
@@ -965,7 +965,7 @@
                         </a>
 
                         <a
-                            href="{{ asset('cv/CV-Nama-Kamu.pdf') }}"
+                            href="{{ asset('cv/cv_arif.pdf') }}"
                             class="btn btn-secondary"
                             target="_blank"
                         >
@@ -1014,7 +1014,7 @@
 
                             <img
                                 src="{{ asset('images/profile.png') }}"
-                                alt="Foto Nama Kamu"
+                                alt="Foto Arif Budiyanto"
                                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
                             >
 
@@ -1070,14 +1070,14 @@
                             <div>
                                 <span class="key">name</span>:
                                 <span class="value">
-                                    "Nama Kamu"
+                                    "Arif Budiyanto"
                                 </span>,
                             </div>
 
                             <div>
                                 <span class="key">education</span>:
                                 <span class="value">
-                                    "SMK RPL"
+                                    "SMK Muhammadiyah 4 Yogyakarta"
                                 </span>,
                             </div>
 
@@ -1528,7 +1528,7 @@
                         </div>
 
                         <h3>
-                            SMK Nama Sekolah
+                            SMK Muhammadiyah 4 Yogyakarta
                         </h3>
 
                         <p>
@@ -1553,17 +1553,19 @@
                         </div>
 
                         <h3>
-                            Nama Perusahaan
+                            PT. Global Intermedia Nusantara 
                         </h3>
 
                         <p>
                             Junior Web Developer / IT Intern
                         </p>
 
+                        <h3>
+                            PT. Carakan 
+                        </h3>
+
                         <p>
-                            Tambahkan pengalaman PKL, pekerjaan,
-                            freelance, organisasi, atau pengalaman
-                            relevan lainnya di sini.
+                            Junior Mobile Developer / Flutter
                         </p>
 
                     </div>
@@ -1630,8 +1632,8 @@
 
                     <div class="contact-info">
 
-                        <a href="mailto:emailkamu@gmail.com">
-                            emailkamu@gmail.com
+                        <a href="mailto:arifbudiyantost@gmail.com">
+                            arifbudiyantost@gmail.com
                         </a>
 
                         <a
@@ -1676,7 +1678,7 @@
 
             <p>
                 © {{ date('Y') }}
-                <span>Nama Kamu</span>.
+                <span>Arif Budiyanto</span>.
                 Built with Laravel.
             </p>
 
